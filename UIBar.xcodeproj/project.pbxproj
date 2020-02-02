@@ -13,6 +13,12 @@
 		846E31242325DE9C00D1331A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846E31232325DE9C00D1331A /* Assets.xcassets */; };
 		846E31272325DE9C00D1331A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846E31262325DE9C00D1331A /* Preview Assets.xcassets */; };
 		846E312A2325DE9C00D1331A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E31282325DE9C00D1331A /* LaunchScreen.storyboard */; };
+		846E31322325E5B100D1331A /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E31312325E5B100D1331A /* BarView.swift */; };
+		846E31342325E5CB00D1331A /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E31332325E5CB00D1331A /* IconView.swift */; };
+		846E31362325ED9300D1331A /* IconView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E31352325ED9300D1331A /* IconView2.swift */; };
+		846E31382325EFF100D1331A /* BarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E31372325EFF100D1331A /* BarView2.swift */; };
+		8488D9602328005A00412624 /* BarView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D95F2328005A00412624 /* BarView3.swift */; };
+		8488D9622328033100412624 /* IconView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488D9612328033100412624 /* IconView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		846E31262325DE9C00D1331A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		846E31292325DE9C00D1331A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846E312B2325DE9C00D1331A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E31312325E5B100D1331A /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		846E31332325E5CB00D1331A /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		846E31352325ED9300D1331A /* IconView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView2.swift; sourceTree = "<group>"; };
+		846E31372325EFF100D1331A /* BarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView2.swift; sourceTree = "<group>"; };
+		8488D95F2328005A00412624 /* BarView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView3.swift; sourceTree = "<group>"; };
+		8488D9612328033100412624 /* IconView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,9 @@
 		846E311C2325DE9A00D1331A /* UIBar */ = {
 			isa = PBXGroup;
 			children = (
+				8488D95E2328004800412624 /* third */,
+				846E31332325E5CB00D1331A /* IconView.swift */,
+				846E31312325E5B100D1331A /* BarView.swift */,
 				846E311D2325DE9A00D1331A /* AppDelegate.swift */,
 				846E311F2325DE9A00D1331A /* SceneDelegate.swift */,
 				846E31212325DE9A00D1331A /* ContentView.swift */,
@@ -63,6 +78,8 @@
 				846E31282325DE9C00D1331A /* LaunchScreen.storyboard */,
 				846E312B2325DE9C00D1331A /* Info.plist */,
 				846E31252325DE9C00D1331A /* Preview Content */,
+				846E31352325ED9300D1331A /* IconView2.swift */,
+				846E31372325EFF100D1331A /* BarView2.swift */,
 			);
 			path = UIBar;
 			sourceTree = "<group>";
@@ -73,6 +90,15 @@
 				846E31262325DE9C00D1331A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8488D95E2328004800412624 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				8488D95F2328005A00412624 /* BarView3.swift */,
+				8488D9612328033100412624 /* IconView3.swift */,
+			);
+			path = third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846E31342325E5CB00D1331A /* IconView.swift in Sources */,
+				846E31322325E5B100D1331A /* BarView.swift in Sources */,
 				846E311E2325DE9A00D1331A /* AppDelegate.swift in Sources */,
 				846E31202325DE9A00D1331A /* SceneDelegate.swift in Sources */,
+				8488D9602328005A00412624 /* BarView3.swift in Sources */,
+				846E31382325EFF100D1331A /* BarView2.swift in Sources */,
+				846E31362325ED9300D1331A /* IconView2.swift in Sources */,
+				8488D9622328033100412624 /* IconView3.swift in Sources */,
 				846E31222325DE9A00D1331A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UIBar/Preview Content\"";
+				DEVELOPMENT_TEAM = C5SR9GRPP6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UIBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UIBar/Preview Content\"";
+				DEVELOPMENT_TEAM = C5SR9GRPP6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UIBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
